@@ -1,0 +1,16 @@
+{
+    "name": "GNL.URP_MyLib_Editor",
+    "references": [
+        "GNL.URP_MyLib"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

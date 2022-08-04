@@ -1,0 +1,22 @@
+{
+    "name": "GNL.URP_MyLib",
+    "rootNamespace": "",
+    "references": [
+        "GUID:58489b307a5bbbe43996104c3c0569b1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "Select...",
+            "expression": "",
+            "define": ""
+        }
+    ],
+    "noEngineReferences": false
+}
