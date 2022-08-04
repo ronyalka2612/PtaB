@@ -265,7 +265,7 @@ MonoBehaviour:
   CurrentTab: 0
   ToolbarTab: 
   Tab1: 
-  State: 0
+  State: 2
   SkipSaved1: 
   SttStarter:
     IsUpdate: 1
