@@ -39,6 +39,7 @@ namespace Com.GNL.URP_MyLib
         {
             //Scene State
             SS_MainMenu,
+            SS_MainMenu_2,
             //SS_MultiPlayer,
             SS_MAIN_GP,
             COUNT,

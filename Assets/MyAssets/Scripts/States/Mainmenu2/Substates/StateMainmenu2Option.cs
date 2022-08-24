@@ -10,9 +10,9 @@ using Com.GNL.URP_MyLib;
 namespace Com.GNL.URP_MyLibProjectTest
 {
     [Serializable]
-    public class StateMainmenuOption : BaseSubstate
+    public class StateMainmenu2Option : BaseSubstate
     {
-        public StateMainmenuOption(BaseState classOfMainState, string subStateName)
+        public StateMainmenu2Option(BaseState classOfMainState, string subStateName)
         {
             SerializeState(classOfMainState, subStateName);
         }
@@ -60,9 +60,8 @@ namespace Com.GNL.URP_MyLibProjectTest
             {
                 SerializeDisable();
                 VirtualInputManager.Instance.InputAttr.NormalizeInput();
-                ClassOfMainState.SerializeEnable();
-                //cekcek 1
-
+                //ClassOfMainState.SerializeEnable();
+                //cekcek 2
             }
         }
 

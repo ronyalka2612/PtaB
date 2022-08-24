@@ -11,12 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyAssets/Scenes/SceneState/SS_MainMenu.unity
     guid: 2bf951fc26adf0745b2b3ad3e4026f5a
+  - enabled: 1
+    path: Assets/MyAssets/Scenes/SceneState/SS_MainMenu2.unity
+    guid: c625ec06cd7b8e24195e76a7ff43a3b7
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/MyAssets/Scenes/SceneState/SS_MultiPlayer_Lobby.unity
     guid: edb0aa3b02783754a86cd28f5d00bb21
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/MyAssets/Scenes/SceneState/SS_MAIN_GP.unity
     guid: 02f78e5c675d48148b7eece5dd831fd9

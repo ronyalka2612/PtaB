@@ -24,6 +24,7 @@ namespace Com.GNL.URP_MyLib
             NO_STATE = -1,
             STARTER = 0,
             MAINMENU,
+            MAINMENU2,
             //MULTI_PLAYER,
             //GP_3,
             MAIN_GP,
@@ -40,6 +41,8 @@ namespace Com.GNL.URP_MyLib
             //MAINMENU
             MAINMENU_MULTI_PLAYER = 0,
             MAINMENU_OPTION,
+            //MAINMENU2
+            MAINMENU2_OPTION,
             //GP_3,
             MAIN_GP_GAMEPLAY_PAUSE,
             COUNT,

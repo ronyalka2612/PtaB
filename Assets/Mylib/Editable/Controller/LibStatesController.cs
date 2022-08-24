@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
@@ -33,6 +34,10 @@ namespace Com.GNL.URP_MyLib
         public StateMainmenu SttMainmenu;
         public string SerializableEnd3;
         [Space(10)]
+        [Header("State Mainmenu")]
+        public StateMainmenu2 SttMainmenu2;
+        public string SerializableEnd4;
+        //[Space(10)]
         //[Header("State MultiPlayer")]
         //public StateMultiPlayer SttMultiPlayer;
         //public string SerializableEnd4;
@@ -93,6 +98,7 @@ namespace Com.GNL.URP_MyLib
         {
             SttStarter.Serialize(SttStarter, LibEdStateUtilities.GameStates.STARTER.ToString());
             SttMainmenu.Serialize(SttMainmenu, LibEdStateUtilities.GameStates.MAINMENU.ToString());
+            SttMainmenu.Serialize(SttMainmenu2, LibEdStateUtilities.GameStates.MAINMENU2.ToString());
             //SttMultiPlayer.Serialize(SttMultiPlayer, LibEdStateUtilities.GameStates.MULTI_PLAYER.ToString());
             SttMAIN_GP.Serialize(SttMAIN_GP, LibEdStateUtilities.GameStates.MAIN_GP.ToString());
         }
@@ -191,7 +197,27 @@ namespace Com.GNL.URP_MyLib
 
                     break;
                 #endregion
+                #region == State MAINMENU2 ==
+                case LibEdStateUtilities.GameStates.MAINMENU2:
+                    // find must be find all component first that use should make it aviable /is aactive true, and disable it in state and substate,
+                    if (!SttMainmenu2.SerializeFind())
+                    {
+                        //StateFunc.ClearState();
+                        StateFunc.SetFindAll(false);
 
+                        Debug.Log("cekcekcek Allfind StateControl MAINMENU2 false");
+                    }
+                    else
+                    {
+                        StateFunc.SetFindAll(true);
+                        CheckingEnable(SttMainmenu2);
+                        CheckingEnable(SttMainmenu2.SubStt_Option2);
+
+                        Debug.Log("cekcekcek Allfind StateControl MAINMENU2true");
+                    }
+
+                    break;
+                #endregion
                 #region == State MULTI_PLAYER ==
 
                 //case LibEdStateUtilities.GameStates.MULTI_PLAYER:

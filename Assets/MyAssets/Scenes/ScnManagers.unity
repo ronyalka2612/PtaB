@@ -265,10 +265,10 @@ MonoBehaviour:
   CurrentTab: 0
   ToolbarTab: 
   Tab1: 
-  State: 2
+  State: 1
   SkipSaved1: 
   SttStarter:
-    IsUpdate: 1
+    IsUpdate: 0
     name: 
     CanvasScreen: {fileID: 0}
     ListUIAndroid: {fileID: 0}
@@ -278,9 +278,9 @@ MonoBehaviour:
     IsUiUsedActive: 0
     IsWithoutLoad: 0
     ScenesWithoutLoad:
-      SceneAdditive: 01000000
-      State: 2
-      Substates: 02000000
+      SceneAdditive: 00000000
+      State: 1
+      Substates: 0100000000000000
     ScenesFromStart:
       SceneAdditive: 00000000
       State: 1
@@ -314,10 +314,33 @@ MonoBehaviour:
       ListUiUsed: {fileID: 0}
       IsUiUsedActive: 0
     Scenes:
-    - SceneAdditive: 01000000
-      State: 2
-      Substates: 02000000
+    - SceneAdditive: 02000000
+      State: 3
+      Substates: 03000000
   SerializableEnd3: 
+  SttMainmenu2:
+    IsUpdate: 0
+    name: 
+    CanvasScreen: {fileID: 0}
+    ListUIAndroid: {fileID: 0}
+    ListUIWindows: {fileID: 0}
+    ListUIAdditional: {fileID: 0}
+    ListUiUsed: {fileID: 0}
+    IsUiUsedActive: 0
+    SubStt_Option2:
+      IsUpdate: 0
+      SubState: {fileID: 0}
+      CanvasScreen: {fileID: 0}
+      ListUIAndroid: {fileID: 0}
+      ListUIWindows: {fileID: 0}
+      ListUIAdditional: {fileID: 0}
+      ListUiUsed: {fileID: 0}
+      IsUiUsedActive: 0
+    Scenes:
+    - SceneAdditive: 00000000
+      State: 1
+      Substates: 0100000000000000
+  SerializableEnd4: 
   SttMAIN_GP:
     IsUpdate: 1
     name: 

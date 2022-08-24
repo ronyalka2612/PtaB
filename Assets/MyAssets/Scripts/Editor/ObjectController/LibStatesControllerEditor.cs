@@ -33,7 +33,7 @@ public class LibStatesControllerEditor : Editor
     {
         SttStarter, //StateStarter
         SttMainmenu, //StateMainmenu
-        //SttMultiPlayer, //SttGameplay
+        SttMainmenu2, //SttGameplay
         SttMAIN_GP, //SttGameplay
         Count
     }
